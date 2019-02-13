@@ -1,9 +1,14 @@
+body {
+  background-color: #f4f7f6;
+}
+
 .master-panel {
   display: flex;
   width: 100%;
   justify-content: center;
-}
 
+}
+//code for the 4 columns
 .main-panel {
   display: flex;
   width: 1773px;
@@ -13,33 +18,98 @@
 
 .column1 {
   display: flex;
-  background-color: lightblue;
+  flex-direction: column;
+  // background-color: lightblue;
   width: 400px;
-  height: 300px;
 }
 
 .column2 {
   display: flex;
-  background-color: lightpink;
+  flex-direction: column;
   width: 400px;
-  height: 300px;
+
 }
 
 .column3 {
   display: flex;
-  background-color: lightgreen;
+  flex-direction: column;
   width: 400px;
-  height: 300px;
+
 }
 
 .column4 {
   display: flex;
-  background-color: lightgray;
+  flex-direction: column;
   width: 400px;
-  height: 300px;
+
 }
 
+// sceondary panel
 
+.secondary-panel {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 25px;
+
+}
+
+.picture {
+  height: 285px;
+}
+
+.date {
+ display: flex;
+ height: 97px;
+ flex-direction: column;
+}
+
+.date-1 {
+  width: 400px;
+  height: 48.5px;
+  display: flex;
+  align-items: center;
+}
+
+.date-1 p {
+  margin-left: 15px;
+}
+
+.date-2 {
+  width: 400px;
+  height: 48.5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.date-2 p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.content-footer {
+ display: flex;
+ height: 48px;
+ border-top: 1px solid lightgray;
+ align-items: center;
+
+}
+
+.secondary-panel img {
+  width: 100%;
+}
+
+.content-footer img {
+  border-radius: 50%;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  }
 
 
 @media screen and (max-width: 1461px) {
